@@ -1,4 +1,4 @@
-input_str = input("Enter any number:  ")
+input_str = input("Enter any number: ")
 print("Type of input_str is: ", type(input_str))
 
 input_int = int(input_str)
@@ -9,9 +9,9 @@ print(input_int)
 
 print("Type of input_int is: ", type(input_int))
 
-long_int = 1_000_000
+large_number = 1_000_000
 
-print(long_int)
+print(large_number)
 
 print(pow(3, 5))
 
@@ -26,7 +26,6 @@ number_float_3 = 17.51
 print(round(number_float_1))
 print(round(number_float_2))
 print(round(number_float_3))
-
 
 db_is_available = False
 
