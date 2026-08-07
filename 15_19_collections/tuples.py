@@ -21,4 +21,4 @@ index_one = my_tuple_list.index(4)
 print(my_tuple_list.index(4, index_one + 1))
 
 index_two = my_tuple_list.index(4, index_one + 1)
-print(my_tuple_list.index(4, index_two + 1))
+print(my_tuple_list.index(4, index_two + 1)) # Я знаю что можно это все сделать через циклы, но на момент практики, я их еще не прошел
