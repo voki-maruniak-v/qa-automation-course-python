@@ -1,8 +1,8 @@
-def route_info (dict):
-    if ('distance' in dict) and (type(dict['distance']) == int):
-        return f"Distance to your destination is {dict['distance']}"
-    elif 'speed' in dict and 'time' in dict:
-        return f"Distance to your destination is {dict['speed'] * dict['time']}"
+def route_info (route):
+    if ('distance' in route) and (type(route['distance']) == int):
+        return f"Distance to your destination is {route['distance']}"
+    elif 'speed' in route and 'time' in route:
+        return f"Distance to your destination is {route['speed'] * route['time']}"
     else:
         return "No distance info is available"
 
